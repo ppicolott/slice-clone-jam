@@ -28,6 +28,10 @@ public class UI : MonoBehaviour
             achievementAudio.Play();
         }
         scoreText.text = "Score: " + score;
+        if(childCount == 0)
+        {
+            SceneManager.LoadScene("LevelOne");
+        }
     }
 
     public void RetryOption()

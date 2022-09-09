@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
@@ -22,7 +21,7 @@ public class Knife : MonoBehaviour
     {
         if (Mouse.current.leftButton.wasPressedThisFrame)
         {
-            rb.AddForce(new Vector3(5f, 12f, 0), ForceMode.Force);
+            rb.AddForce(new Vector3(5f, 15f, 0), ForceMode.Force);
             rb.AddTorque(new Vector3(0, 0, -0.5f), ForceMode.Force);
             audioSource.Play();
         }
@@ -31,18 +30,10 @@ public class Knife : MonoBehaviour
             Touch activeTouch = Touch.activeFingers[0].currentTouch;
             if(activeTouch.isTap)
             {
-                rb.AddForce(new Vector3(5f, 12f, 0), ForceMode.Force);
+                rb.AddForce(new Vector3(5f, 15f, 0), ForceMode.Force);
                 rb.AddTorque(new Vector3(0, 0, -0.5f), ForceMode.Force);
                 audioSource.Play();
             }
-        }
-    }
-
-    private void OnCollisionEnter(Collision collision)
-    {
-        if(collision.collider.gameObject.name.Equals("Cliff"))
-        {
-            SceneManager.LoadScene("LevelOne");
         }
     }
 }
