@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
+using UnityEngine.SceneManagement;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
 
 public class Knife : MonoBehaviour
@@ -34,6 +35,14 @@ public class Knife : MonoBehaviour
                 rb.AddTorque(new Vector3(0, 0, -0.5f), ForceMode.Force);
                 audioSource.Play();
             }
+        }
+    }
+
+    private void OnTriggerEnter(Collider collider)
+    {
+        if (collider.gameObject.name.Equals("GroundBoxLimits"))
+        {
+            SceneManager.LoadScene("LevelOne");
         }
     }
 }

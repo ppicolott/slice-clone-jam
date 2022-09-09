@@ -6,6 +6,6 @@ public class Cam : MonoBehaviour
 {
     void Update()
     {
-        transform.position = GameObject.Find("Tip").transform.position + new Vector3(-1.2f, 1f, -4.5f);
+        transform.position = GameObject.Find("Tip").transform.position + new Vector3(-1.5f, 1f, -4.5f);
     }
 }
