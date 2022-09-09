@@ -3968,11 +3968,6 @@ PrefabInstance:
       propertyPath: sliceAudio
       value: 
       objectReference: {fileID: 1988508252}
-    - target: {fileID: 6228509434040273325, guid: 3c20f19a83db4c24da1ba1f93b389380,
-        type: 3}
-      propertyPath: achievementAudio
-      value: 
-      objectReference: {fileID: 1412548480}
     - target: {fileID: 6288494554065674341, guid: 3c20f19a83db4c24da1ba1f93b389380,
         type: 3}
       propertyPath: m_Name
@@ -4052,11 +4047,6 @@ PrefabInstance:
       propertyPath: sliceAudio
       value: 
       objectReference: {fileID: 1988508252}
-    - target: {fileID: 6561328493794474238, guid: b4f21a796e5b8a24a91033a745b4458e,
-        type: 3}
-      propertyPath: achievementAudio
-      value: 
-      objectReference: {fileID: 1412548480}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b4f21a796e5b8a24a91033a745b4458e, type: 3}
 --- !u!1001 &1137832363617023738
@@ -4070,10 +4060,6 @@ PrefabInstance:
       propertyPath: sliceAudio
       value: 
       objectReference: {fileID: 1988508252}
-    - target: {fileID: 1380344332, guid: 309c6676055b93949a8f1d4b5c9bcd35, type: 3}
-      propertyPath: achievementAudio
-      value: 
-      objectReference: {fileID: 1412548480}
     - target: {fileID: 1137832364384425200, guid: 309c6676055b93949a8f1d4b5c9bcd35,
         type: 3}
       propertyPath: m_Name
@@ -4132,21 +4118,6 @@ PrefabInstance:
     - target: {fileID: 1137832364384425201, guid: 309c6676055b93949a8f1d4b5c9bcd35,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6339731211359475342, guid: 309c6676055b93949a8f1d4b5c9bcd35,
-        type: 3}
-      propertyPath: m_IsKinematic
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 7870129035138070777, guid: 309c6676055b93949a8f1d4b5c9bcd35,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9003710195783523430, guid: 309c6676055b93949a8f1d4b5c9bcd35,
-        type: 3}
-      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4230,91 +4201,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Knife
       objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.numCapVertices
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.numCornerVertices
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.colorGradient.key0.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.colorGradient.key1.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085984, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.08048123
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085991, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0.003
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864114837085991, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.17
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864115607021964, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0.171
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864115607021965, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_SortingOrder
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864115607021965, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_DynamicOccludee
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864115607021965, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
-    - target: {fileID: 8598864115607021965, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.colorGradient.key0.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864115607021965, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.colorGradient.key1.a
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8598864115607021965, guid: e232f9338f7ede946a7462ab82f72353,
-        type: 3}
-      propertyPath: m_Parameters.widthCurve.m_Curve.Array.data[0].value
-      value: 0.08048123
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e232f9338f7ede946a7462ab82f72353, type: 3}
 --- !u!1001 &7486356515952616419
@@ -4384,11 +4270,6 @@ PrefabInstance:
       propertyPath: sliceAudio
       value: 
       objectReference: {fileID: 1988508252}
-    - target: {fileID: 6203692325667223405, guid: cdebb4daecdc6c94d8dfdb99d39c14da,
-        type: 3}
-      propertyPath: achievementAudio
-      value: 
-      objectReference: {fileID: 1412548480}
     - target: {fileID: 6278815452156518053, guid: cdebb4daecdc6c94d8dfdb99d39c14da,
         type: 3}
       propertyPath: m_Name
